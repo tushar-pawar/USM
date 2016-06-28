@@ -1,0 +1,101 @@
+body {
+  background-color: #CCC;
+  margin:80px 80px 100px 100px;
+}
+
+div#fixedheader {
+  position: relative;
+  top:0px;
+  left:0px;
+  height:17vh;
+  width:100%;
+  color:#fff;
+  background: #336699;
+  padding:2%;
+  box-shadow: 
+  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  position: static;
+}
+
+.sign-in, .sign-up{
+  font-size: 2vh;
+}
+
+
+div#fixedfooter {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  color:#CCC;
+  background:#333;
+  padding:8px;
+}
+
+.title{
+  font-size:36px; 
+  line-height:25px; 
+  font-variant:small-caps; 
+  font-style:italic;
+}
+
+.logo{
+  padding:-30px;
+  height: 12vh;
+  width:14vw;
+  display:inline;
+  box-shadow: 
+  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  position: static;
+}
+
+.title{
+  font-size: 6vmin;
+  top: 5vh;
+  left: 27vw;
+}
+
+.footer{
+  text-align:center;
+}
+ul.topnav {
+  float: right;
+  list-style-type: none;
+  overflow: hidden;
+}
+.custom-nav-menu{
+  height: 5vh;
+}
+
+ul.topnav li {
+  font-size: 3vh;
+  display: inline;
+}
+
+ul.topnav li a {
+  padding: 0.3vh 0.3vw;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul.topnav li a:hover {
+  background-color: #111;
+}
+
+ul.topnav li.icon {
+  display: none;
+  font-size:15px;
+}

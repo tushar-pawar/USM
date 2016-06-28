@@ -1,0 +1,83 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.sidebar, .content{
+  color: red;
+}
+
+.page{
+  top: 24.15vh;
+}
+
+.news-block{
+  text-align: left;
+  border: 1px solid green;
+  top: 15px;
+  left: 0px;
+  hight: 100%;
+}
+
+.news{
+  text-align: center;
+  color: red; 
+  background: #336699;
+}
+
+.about{
+  border: 3px ;
+  top: 30px;
+  right: 0px;
+  text-align: justify;
+  hight: 100%;
+  background: #fff;
+  box-shadow: 
+  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  position: static;
+}
+
+.stock2{
+  padding:25px;
+  height: 30vh;
+  width:25vw;
+  display:inline;
+}
+
+.stock{
+  top: 40px;
+  background: #fff;
+  box-shadow: 
+  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  position: static;
+  text-align: justify;
+}
+
+.signup {
+  padding: 0px 25px 25px;
+  background: #fff;
+  box-shadow: 
+  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  position: static;
+}
+
+.stock2{
+  padding:40px;
+  height: 37vh;
+  width:25vw;
+  display:inline;
+}
