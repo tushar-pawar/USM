@@ -1,6 +1,8 @@
 body {
   background-color: #CCC;
   margin:80px 80px 100px 100px;
+  background-image: url(background.png);
+  padding-right: 0px!Important;
 }
 
 div#fixedheader {
@@ -10,7 +12,7 @@ div#fixedheader {
   height:17vh;
   width:100%;
   color:#fff;
-  background: #336699;
+  background:#800080;
   padding:2%;
   box-shadow: 
   0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
@@ -20,6 +22,22 @@ div#fixedheader {
   border-radius: 5px;
   display: table;
   position: static;
+  background-image: url(header-background.jpg);
+  text-shadow:2px 2px #8b008b,
+  3px 3px red;
+  font-size:xx-large;
+  
+}
+div.title{
+  //box-shadow: 
+  //0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  //0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  height:32px;
+  width:45%;
 }
 
 .sign-in, .sign-up{
@@ -28,13 +46,25 @@ div#fixedheader {
 
 
 div#fixedfooter {
-  position:fixed;
+  position:static;
+  //margin-top:10px;
   bottom:0px;
   left:0px;
   width:100%;
   color:#CCC;
   background:#333;
-  padding:8px;
+  margin-top:20px;
+  padding:3px;
+  box-shadow: 
+  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 4px 20px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: table;
+  position: static;
+  background-image: url(header-background.jpg);
+  text-align:center;
 }
 
 .title{
@@ -45,12 +75,12 @@ div#fixedfooter {
 }
 
 .logo{
-  padding:-30px;
+  padding:-30px;  
   height: 12vh;
   width:14vw;
   display:inline;
   box-shadow: 
-  0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
+  0px 0px 15px 5px rgba( 255,255,255,0.4 ), 
   0px 4px 20px rgba( 0,0,0,0.33 );
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -64,6 +94,17 @@ div#fixedfooter {
   top: 5vh;
   left: 27vw;
 }
+.ti{
+  width:110%;
+  height:80%;
+  box-shadow: 
+  0px 0px 17px 4px white, 
+  0px 4px 10px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position: static;
+}
 
 .footer{
   text-align:center;
@@ -74,28 +115,56 @@ ul.topnav {
   overflow: hidden;
 }
 .custom-nav-menu{
-  height: 5vh;
+  height: 4vh;
+  background:yellow;
+  background-image: url(menubar.png );
+  position:absolute;
+  padding-right:-15px;
+  padding-left:-15px;
+  float:right;
+  box-shadow: 
+  0px 0px 0px 3px rgba( 255,255,255,0.4 ), 
+  0px 4px 10px rgba( 0,0,0,0.33 );
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 2px;
+  position: static;
+  margin-top:2px;
 }
 
 ul.topnav li {
-  font-size: 3vh;
+  font-size: 1vh;
   display: inline;
+  align:bottom; 
+  
+ 
 }
 
 ul.topnav li a {
-  padding: 0.3vh 0.3vw;
+  font: bold 14px/17px "Lato","Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 0.7vh 1.8vw;
   display: inline-block;
   color: #fff;
-  text-align: center;
+  text-align: bottom;
   text-decoration: none;
-  transition: 0.3s;
+ transition: 0.3s;
+  background-image: url(home1.png);
+  width: 110px;   
 }
 
 ul.topnav li a:hover {
-  background-color: #111;
+ background-image: url(home2.png); 
 }
 
 ul.topnav li.icon {
   display: none;
-  font-size:15px;
+  font-size:10px;
 }
+.facebook{
+  heigh: 8vh;
+  width:5vh;
+  margin-right:5px;
+  left:5px;
+  float:left;
+}
+

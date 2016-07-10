@@ -9,6 +9,9 @@
     .row
       = render 'layouts/header'
     .row
-      = render 'layouts/sidebar'
+      .col-md-9
+        =yield
+      .col-md-3
+        = render 'layouts/sidebar'
     .row
       = render 'layouts/footer'
