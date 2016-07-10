@@ -11,12 +11,12 @@
   %b
     %ul.topnav
       %li
-        %a{ href: "#home" } Home
-      %li
-        %a{ href: "#news" } Courses
-      %li
-        %a{ href: "#contact" } Contact
-      %li
-        %a{ href: "#about" } About Us
-      %li.icon
-        %a{ href: "javascript:void(0);", on_click:"my_function()"} ☰
+        = link_to 'Home', home_path_url
+        %li
+          = link_to 'Course Info', course_path_url
+        %li
+          = link_to 'Contact', contact_path_url
+        %li
+          = link_to 'About', about_path_url
+        %li.icon
+          %a{ href: "javascript:void(0);", on_click:"my_function()"} ☰
