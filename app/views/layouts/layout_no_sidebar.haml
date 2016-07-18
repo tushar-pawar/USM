@@ -2,7 +2,6 @@
   %head
     %title UttamStockMarket
     %meta.name-viewport.content.width-device-width.initial-scale-1.0
-    = javascript_include_tag 'http://maps.google.com/maps/api/js?key=AIzaSyCbO5hrFYpu1xvlGgEPwQnqrDWgUXD45hs'
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
@@ -10,9 +9,6 @@
     .row
       = render 'layouts/header'
     .row
-      .col-md-9
-        =yield
-      .col-md-3
-        = render 'layouts/sidebar'
+      = yield
     .row
       = render 'layouts/footer'

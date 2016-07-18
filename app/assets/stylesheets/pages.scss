@@ -1,0 +1,84 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//.contact-page{
+//  border: 1px solid black;
+//}
+
+.contact-input{
+  margin: 1%;
+}
+
+.contact-input > input{
+  width: 80%;
+}
+
+.contact-input > textarea{
+  width: 80%;
+}
+
+.contact-panel{
+  //margin: 2%;
+}
+
+.btn-send{
+  width: 96%!important;
+  margin: 2%;
+}
+
+.contact-us-title{
+  color: purple;
+}
+
+.contact-field{
+  margin-top: 1%;
+  //margin-left: 2%;
+  display: inline-block;
+}
+
+.contact-field-label{
+  color: #41abff;
+  margin-top: 1%;
+  //margin-left: 2%;
+  display: inline-block;
+}
+
+.panel.panel-default{
+  padding: 0px !important;
+}
+
+span.header-text{
+  display: block;
+  margin: 3%;
+  text-align: center;
+}
+
+.contact-img img{
+  height: 15%;
+  width: 100%
+}
+
+#google-map{
+  height: 300px;
+  width: 200px;
+}
+
+#gmap_canvas img{
+  max-width:none!important;
+  background:none!important
+}
+
+#gmap_canvas {
+  height: 500px;
+  width: 600px;
+}
+
+#course-info-panel{
+  margin: 2%;
+}
+
+.course-page{
+  margin: 2%;
+  text-align: justify;
+  border-left: solid purple thin;
+}

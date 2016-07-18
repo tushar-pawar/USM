@@ -1,0 +1,43 @@
+.row
+  .col-md-1.col-sm-1.col-xs-1
+  .contact-page.col-md-5.col-sm-5.col-xs-5
+    %form.form-group.contact-panel.row
+      .panel.panel-default.contact-left-panel
+        .panel-heading
+          .contact-img
+            = image_tag('contact-us.jpg')
+        .panel-body
+          .col-md-11.col-sm-11.col-xs-11
+            %span.header-text
+              Submit your query here. We will reach to you as soon as possible..
+          .contact-field.col-md-3.col-sm-3.col-xs-3
+            Name
+          .contact-input.col-md-8.col-sm-8.col-xs-8
+            %input.form-control{"aria-describedby" => "basic-addon2", :type => "text"}
+          .contact-field.col-md-3.col-sm-3.col-xs-3
+            Email
+          .contact-input.col-md-8.col-sm-8.col-xs-8
+            %input.form-control
+          .contact-field.col-md-3.col-sm-3.col-xs-3
+            Mobile
+          .contact-input.col-md-8.col-sm-8.col-xs-8
+            %input.form-control
+          .contact-field.col-md-3.col-sm-3.col-xs-3
+            Message
+          .contact-input.col-md-8.col-sm-8.col-xs-8
+            = text_area_tag(:placeholder => 'Enter text.',:size => '25X7')
+          = button_tag 'SEND', class: 'form-control btn-primary btn-send col-md-8 col-sm-8 col-xs-8'
+  .col-md-5.col-sm-5.col-xs-5
+    .row.col-md-12.col-sm-12.col-xs-12
+      .contact-us-title
+        %h4
+          %bold Reach us at
+    .row.col-md-12.col-sm-12.col-xs-12
+      .contact-field-label.col-md-6.col-sm-6.col-xs-6
+        PHONE
+      .contact-field-label.col-md-6.col-sm-6.col-xs-6
+        EMAIL
+      .col-md-6.col-sm-6.col-xs-6
+        7387577713
+      .col-md-6.col-sm-6.col-xs-6
+        info@uttamstockmarket.com

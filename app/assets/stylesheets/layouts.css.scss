@@ -26,12 +26,9 @@ div#fixedheader {
   text-shadow:2px 2px #8b008b,
   3px 3px red;
   font-size:xx-large;
-  
 }
+
 div.title{
-  //box-shadow: 
-  //0px 0px 0px 5px rgba( 255,255,255,0.4 ), 
-  //0px 4px 20px rgba( 0,0,0,0.33 );
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -44,10 +41,8 @@ div.title{
   font-size: 2vh;
 }
 
-
 div#fixedfooter {
   position:static;
-  //margin-top:10px;
   bottom:0px;
   left:0px;
   width:100%;
@@ -109,11 +104,13 @@ div#fixedfooter {
 .footer{
   text-align:center;
 }
+
 ul.topnav {
   float: right;
   list-style-type: none;
   overflow: hidden;
 }
+
 .custom-nav-menu{
   height: 4vh;
   background:yellow;
@@ -136,8 +133,6 @@ ul.topnav li {
   font-size: 1vh;
   display: inline;
   align:bottom; 
-  
- 
 }
 
 ul.topnav li a {
@@ -147,19 +142,20 @@ ul.topnav li a {
   color: #fff;
   text-align: bottom;
   text-decoration: none;
- transition: 0.3s;
+  transition: 0.3s;
   background-image: url(home1.png);
   width: 110px;   
 }
 
 ul.topnav li a:hover {
- background-image: url(home2.png); 
+  background-image: url(home2.png);
 }
 
 ul.topnav li.icon {
   display: none;
   font-size:10px;
 }
+
 .facebook{
   heigh: 8vh;
   width:5vh;
@@ -167,4 +163,3 @@ ul.topnav li.icon {
   left:5px;
   float:left;
 }
-
